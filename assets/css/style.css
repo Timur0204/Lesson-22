@@ -1,0 +1,49 @@
+html {
+    margin: 0 auto;
+    width: 40vw;
+}
+
+
+aside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'a b'
+                         'c d'
+                         'e e';
+ gap: 10px;                                                 
+}
+
+.lab {
+    grid-area: a;
+}
+
+.inp{
+    width: 25vw;
+    grid-area: b;
+}
+
+.lab2 {
+    grid-area: c;
+}
+
+.inp2{
+    width: 25vw;
+    grid-area: d;
+}
+
+.butt {
+    grid-area: e;
+    border: 2px solid black;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 2px;
+}
+
+.butt:hover {
+    background-color: rgb(71, 125, 226);
+}
+
+
+
+
+
