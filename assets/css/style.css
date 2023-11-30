@@ -1,7 +1,4 @@
-html {
-    margin: 0 auto;
-    width: 40vw;
-}
+
 
 
 aside {
@@ -44,6 +41,12 @@ aside {
 }
 
 
+@media(min-width: 916px) {
+    html {
+        margin: 0 auto;
+        width: 40vw;
+    }
+}
 
 
 
